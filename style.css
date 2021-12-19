@@ -6,13 +6,13 @@ html, body {
     background-color: #F0D9DA;  
     
     color: #303030;
-    font: Verdana, Arial, Sans-Serif;
+    font-family: Trebuchet MS ;
 }
 
 
 main {
     margin: 0 auto;
-    width: 700px;
+    width: 900px;
     position: relative;
 }
 
@@ -38,7 +38,7 @@ h3 {
 }
 
 p {
-    text-align: center;
+    
 }
 
 .debut {
@@ -56,6 +56,17 @@ strong {
     margin-right: auto;
     margin-top: 20px;
     margin-bottom: 20px;
+}
+
+.picture {
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 250px;
+}
+
+#images{
+    text-align:center;
 }
 
 .poweroflove {
@@ -80,8 +91,17 @@ strong {
     margin-bottom: 20px;
 }
 
-.insta {
-    color: #303030;
+.insta{
+     color: #303030;
+}
+
+.insta:hover {
+   color: #769FCD;
+}
+
+
+ul {
+    
 }
 
 /* specifieke stijlen */
@@ -112,10 +132,13 @@ nav ul {
     padding: 0;
     background-color: #B9CCED;
     overflow: hidden;
+    text-align: center;
+    
 }
 
 nav ul li {
     float: left;
+    width: 20% ;
 }
 
 nav li a {
@@ -128,6 +151,7 @@ nav li a {
 
 nav li a:hover {
     background-color: #F9ECEC;
+    color: grey;
 }
 
 nav li a.active {
