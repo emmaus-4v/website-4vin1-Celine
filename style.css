@@ -35,10 +35,8 @@ footer {
 
 h3 {
     text-align: center;
-}
-
-p {
-    
+    font-family: Script MT;
+    color: #769FCD;
 }
 
 .debut {
@@ -46,16 +44,7 @@ p {
 }
 
 strong {
-    background-color:#B9CCED
-}
-
-.rockwithyou {
-    width: 250px;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 20px;
-    margin-bottom: 20px;
+    background-color:#C8D9EB
 }
 
 .picture {
@@ -67,15 +56,8 @@ strong {
 
 #images{
     text-align:center;
-}
-
-.poweroflove {
-    width: 250px;
-    /*display: block;
-    margin-left: auto;
-    margin-right: auto;
     margin-top: 20px;
-    margin-bottom: 20px;*/
+    margin-bottom: 20px;
 }
 
 .mansae {
@@ -83,7 +65,7 @@ strong {
 }
 
 .ot13 {
-    width: 500px;
+    width: 450px;
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -99,9 +81,23 @@ strong {
    color: #769FCD;
 }
 
+.youtubevideo {
+    width: 450px;
+    height: 250px;
+    margin-top: 20px;
+    margin-left: 10px;
+}
 
-ul {
-    
+.songs {
+    float: right;
+    margin-right: 90px;
+    margin-top: 25px;
+}
+
+.notalone {
+    float: right;
+    margin-right: 65px;
+    margin-top: 25px;
 }
 
 /* specifieke stijlen */
