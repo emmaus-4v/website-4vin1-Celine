@@ -29,6 +29,7 @@ header {
 
 
 footer {
+    clear: both;
     text-align: center;
     padding-bottom: 10px;
 }
@@ -37,6 +38,10 @@ h3 {
     text-align: center;
     font-family: Script MT;
     color: #769FCD;
+}
+
+hr {
+    clear: both;
 }
 
 .debut {
@@ -82,6 +87,7 @@ strong {
 }
 
 .youtubevideo {
+    clear: both;
     width: 450px;
     height: 250px;
     margin-top: 20px;
