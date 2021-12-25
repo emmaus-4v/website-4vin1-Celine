@@ -100,6 +100,17 @@ strong {
     margin-top: 25px;
 }
 
+.jump {
+    color: grey;
+    margin-left: 15px;
+    text-align: center;
+}
+
+h2 {
+    color: rgb(202, 132, 144);
+    text-align: center;
+}
+
 /* specifieke stijlen */
 
 img.zweefLinks {
@@ -108,7 +119,7 @@ img.zweefLinks {
 }
 
 .smalltext {
-    font-size: 0.7em;
+    font-size: 0.8em;
 }
 
 a {
